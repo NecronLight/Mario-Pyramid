@@ -6,7 +6,7 @@ int main(void)
     int height;
     do
     {
-        height = get_int("What's the height of the pyramid?\n"); //ask for the pyramid height
+        height = get_int("What's the height of the pyramid? From 1 to 8\n"); //ask for the pyramid height
     }
     while (height < 1 || height > 8);
 
